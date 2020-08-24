@@ -1,4 +1,4 @@
-%
+% Add data files to path if the directory exists
 if exist("StormData","dir") == 7    
     addpath("StormData")
 else
