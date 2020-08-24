@@ -8,3 +8,5 @@ The example is used in the "Data Science with MATLAB" webinar series.
 To get started, run WeatherEvents.prj
 
 Follow along with the example via Main_WeatherEvents.mlx
+
+[![View Data Science: Predict Damage Costs of Weather Events on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/69337-data-science-predict-damage-costs-of-weather-events)
