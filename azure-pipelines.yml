@@ -1,0 +1,22 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+steps:
+  - task: InstallMATLAB@0 
+  - task: RunMATLABCommand@0
+    inputs:
+      command: 'matlab.project.loadProject; GetStormEventData'
+  - task: RunMATLABTests@0
+    inputs:
+      testResultsJUnit: 'artifacts/test-results.xml'
+  -task: 
+  - task: PublishTestResults@2
+    inputs:
+      testResultsFormat: 'JUnit'
+      testResultsFiles: 'artifacts/test-results.xml'
+      mergeTestResults: true
+      failTaskOnFailedTests: true
+      testRunTitle: 'MATLAB Tests'
+
