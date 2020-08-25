@@ -7,7 +7,7 @@ steps:
   - task: InstallMATLAB@0 
   - task: RunMATLABCommand@0
     inputs:
-      command: 'matlab.project.loadProject; GetStormEventData'
+      command: 'matlab.project.loadProject(pwd); GetStormEventData'
   - task: RunMATLABTests@0
     inputs:
       testResultsJUnit: 'artifacts/test-results.xml'
