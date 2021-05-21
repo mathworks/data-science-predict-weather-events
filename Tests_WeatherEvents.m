@@ -1,7 +1,7 @@
 function tests = Tests_WeatherEvents
 % Tests for weather event prediction application
 %
-% Copyright 2020 The MathWorks, Inc.
+% Copyright 2020 - 2021 The MathWorks, Inc.
 tests = functiontests(localfunctions);
 end
 

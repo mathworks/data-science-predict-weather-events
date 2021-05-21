@@ -7,7 +7,7 @@ function damage = predictStormDamage(location,eventtype,dur,date)
 % dur = 1;
 % damage = predictStormDamage(location,eventtype,dur)
 %
-% Copyright 2020 The MathWorks, Inc.
+% Copyright 2020 - 2021 The MathWorks, Inc.
 %
 
 % Prep inputs 
