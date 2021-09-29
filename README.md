@@ -9,4 +9,4 @@ To get started, run WeatherEvents.prj
 
 Follow along with the example via Main_WeatherEvents.mlx
 
-[![View Data Science: Predict Damage Costs of Weather Events on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/69337-data-science-predict-damage-costs-of-weather-events)
+[![View Data Science: Predict Damage Costs of Weather Events on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/69337-data-science-predict-damage-costs-of-weather-events) [![Build Status](https://dev.azure.com/acampbel/acampbel/_apis/build/status/acampbel.data-science-predict-weather-events?branchName=master)](https://dev.azure.com/acampbel/acampbel/_build/latest?definitionId=5&branchName=master)
